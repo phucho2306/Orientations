@@ -79,7 +79,7 @@ import 'package:orientations/orientations.dart';
 
 void main() async {
   // Allow only Landscape Right & Left on iOS
-  await OrientationsPlugin().setPreferredOrientations([
+  OrientationsPlugin().setPreferredOrientations([
     DeviceOrientation.landscapeRight,
     DeviceOrientation.landscapeLeft,
   ]);
